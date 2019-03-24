@@ -1,0 +1,29 @@
+{
+  "connection": "default",
+  "collectionName": "technologyitems",
+  "info": {
+    "name": "technologyitem",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "LogoImage": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    },
+    "Title": {
+      "default": "",
+      "type": "string"
+    },
+    "Content": {
+      "default": "",
+      "type": "text"
+    }
+  }
+}

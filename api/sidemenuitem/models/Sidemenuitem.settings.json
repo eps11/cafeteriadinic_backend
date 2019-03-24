@@ -1,0 +1,31 @@
+{
+  "connection": "default",
+  "collectionName": "sidemenuitems",
+  "info": {
+    "name": "sidemenuitem",
+    "description": "Menu items to appear in the collapsible side menu."
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "Title": {
+      "default": "",
+      "type": "string"
+    },
+    "MaterialIcon": {
+      "default": "",
+      "type": "string"
+    },
+    "RouterOutletLink": {
+      "default": "",
+      "type": "string"
+    },
+    "Sort": {
+      "default": "",
+      "type": "integer"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "connection": "default",
+  "collectionName": "sidenavmenuitems",
+  "info": {
+    "name": "topmenuitem",
+    "description": "Menu items which appear in the site sidenav."
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "Title": {
+      "default": "",
+      "type": "string"
+    },
+    "Link": {
+      "default": "",
+      "type": "string"
+    },
+    "Classes": {
+      "default": "",
+      "type": "string"
+    },
+    "Styles": {
+      "default": "",
+      "type": "json"
+    },
+    "Sort": {
+      "default": "",
+      "type": "integer"
+    }
+  }
+}
