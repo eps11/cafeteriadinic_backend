@@ -1,3 +1,3 @@
-# cateria_backend
+# Cafeteria Back-end
 
-A quick description of cateria_backend.
+Back-end built with Strapi for the cafeteria di nic website.
